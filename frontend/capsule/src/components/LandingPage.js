@@ -11,7 +11,10 @@ const LandingPage = () => {
         alt="Capsule Corp Logo"
         className="w-32 h-32 mb-6 animate-spin-slow"
       />
-      <h1 className="text-5xl font-bold uppercase tracking-widest">Capsule Corp.</h1>
+     <h1 className="text-4xl text-saiyan-blue font-saiyan">
+  Hello Capsule Corp!
+</h1>
+
       <p className="mt-4 text-xl text-capsule-yellow max-w-md mx-auto">
         Your gateway to Z-level tech and gear.
       </p>

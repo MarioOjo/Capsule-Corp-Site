@@ -1,12 +1,4 @@
-import React from 'react';
-import LandingPage from './components/LandingPage';
-
 function App() {
-  return (
-    <div className="App">
-      <LandingPage />
-    </div>
-  );
+  return <h1 style={{ color: 'red' }}>React is working!</h1>;
 }
-
 export default App;

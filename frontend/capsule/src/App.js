@@ -1,10 +1,9 @@
 import React from 'react';
-import LandingPage from './components/LandingPage';
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage />
+    <div className="min-h-screen bg-saiyan-blue flex items-center justify-center text-white font-saiyan">
+      <h1 className="text-4xl">Hello Capsule Corp!</h1>
     </div>
   );
 }

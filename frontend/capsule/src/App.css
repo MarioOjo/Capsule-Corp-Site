@@ -1,4 +1,17 @@
+/* index.css */
 
+/* Inject Tailwind’s base, component, and utility styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom global styles below this line */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -7,8 +20,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
-  
+  background-color: #b38c8c;
   color: #111;
   line-height: 1.5;
   min-height: 100vh;
@@ -17,7 +29,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-  background-color: #532a2a;
+  background-color: #693333;
   padding: 0.2em 0.4em;
   border-radius: 4px;
   font-size: 0.95em;
